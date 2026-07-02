@@ -435,7 +435,7 @@
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ef436162-32e8-4396-bd90-46fedc4f7427")
+			(uuid "8cad07b8-dc86-4941-8a99-b89863266f4f")
 			(effects
 				(font
 					(size 1 1)
@@ -446,7 +446,7 @@
 		(property "Value" "LED"
 			(at 1.27 3.96 0)
 			(layer "F.Fab")
-			(uuid "caa2c659-fcb8-4b79-94f2-7457f940519c")
+			(uuid "4639de3e-6982-4525-abaf-dd6cdc849987")
 			(effects
 				(font
 					(size 1 1)
@@ -458,7 +458,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97838862-4303-4a2b-84a6-011c2284aa82")
+			(uuid "9ef6cfbd-d927-40e7-bf9d-e54ae0ed1158")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +469,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb389d64-4c3a-4705-966c-26d7254a9776")
+			(uuid "081c5077-ecc9-45c7-b2be-21b09b51961d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,9 +2493,10 @@
 	(gr_rect
 		(start 61 61.5)
 		(end 160.5 132)
+		(radius 2)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -2539,6 +2540,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Linqi"
+		(at 159.25 131 -0)
+		(layer "B.SilkS")
+		(uuid "f96097af-f2af-4aa2-afdd-89a485b7f22f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 67.5 66)
 		(end 70.5 66)
@@ -2548,28 +2561,20 @@
 		(uuid "15c88aa4-8a36-4d33-97c1-bea1a83ff74b")
 	)
 	(segment
-		(start 141.73 129)
-		(end 74.762943 128.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(R1-Pad1)")
-		(uuid "17445c80-8fc0-4c5f-acdf-4abc42e859f1")
-	)
-	(segment
-		(start 74.762943 128.5)
-		(end 64 117.737057)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(R1-Pad1)")
-		(uuid "4a0fb0f0-7f5c-4553-a134-180d1bc3f860")
-	)
-	(segment
 		(start 64 117.737057)
 		(end 64 76)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(R1-Pad1)")
-		(uuid "64ab6705-bca2-4cbf-b5e1-838addb6743e")
+		(uuid "207a95d1-948e-4979-9d71-888162448495")
+	)
+	(segment
+		(start 141.73 129)
+		(end 75.25 129)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(R1-Pad1)")
+		(uuid "8ff8deaf-b091-47c5-be64-9123c360d2f7")
 	)
 	(segment
 		(start 64 69.5)
@@ -2586,6 +2591,14 @@
 		(layer "B.Cu")
 		(net "Net-(R1-Pad1)")
 		(uuid "c67d82d4-baef-4991-b467-163a802797e2")
+	)
+	(segment
+		(start 75.25 129)
+		(end 64 117.737057)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(R1-Pad1)")
+		(uuid "d6a00569-d6e0-4e62-8455-8badcbaf7691")
 	)
 	(segment
 		(start 80.5 113)
