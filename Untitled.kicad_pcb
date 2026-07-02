@@ -84,7 +84,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./")
+			(outputdirectory "../../Downloads/")
 		)
 	)
 	(footprint "easyeda2kicad:VIBRATIONMOTOR-TH_LCM0827A3038F"
